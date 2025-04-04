@@ -1,0 +1,212 @@
+/* Sidebar Container */
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #ffffff;
+  /* padding: 10px; */
+}
+
+/* Header Section */
+.header-sidebar {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+/* Logo */
+.logo-logo img {
+  width: 40px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+/* Brand Section */
+.brand-section {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  padding: 6px;
+  width: 180.88px;
+  height: 36px;
+  flex: 1;
+  justify-items:space-between;
+
+}
+
+/* Brand Icon */
+.brand-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #309E96;
+  border-radius: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Brand Name */
+.brand-name span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #343a40;
+}
+
+/* Sidebar Arrow */
+.arrow-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.icon-small {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Main Sidebar */
+.mainsidebar {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Left Sidebar */
+.left-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px 0 0 12px;
+  width:fixed(51px);
+  height: fixed(755px);
+
+}
+
+.left-sidebar img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+/* Add Icon */
+.add-icon .icon-button {
+  width: 40px;
+  height: 40px;
+  background-color: #e9ecef;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.people {
+  font-size: 20px;
+  color: #333;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Right Sidebar */
+.right-sidebar {
+  width: 237px;
+  height: 755px;
+  background-color: #f9f9f9;
+  padding: 24px 16px 24px 16px;
+  border-radius: 0 12px 12px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+  justify-content: space-between;
+}
+
+/* Sidebar Item */
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sidebar-item:hover {
+  background-color: #f1f3f5;
+}
+
+/* Sidebar Icons */
+.icon {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Submenu */
+.submenu {
+  padding-left: 30px;
+  color: #555;
+}
+
+.submenu-item {
+  padding: 8px 10px;
+  font-size: 14px;
+}
+
+.submenu-item-active {
+  color: green;
+  background-color: lightgreen;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+/* Footer Menu */
+.footer-menu {
+  margin-top: auto;
+}
+
+/* Channels */
+.channels {
+  display: flex;
+  flex-direction: column;
+  width: 205px;
+  height: 144px;
+  display: flex; 
+  gap: 4px;
+}
+
+.inner-sidebar {
+  width: 205px;
+  height: 703px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.brandperple {
+  width: 28px;
+  height: 28px;
+  border-radius: 32px;
+  border: 1px solid #9106FF;
+  padding: 6px;
+  gap: 10px;
+  color: White;
+  background-color: #9106FF;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
